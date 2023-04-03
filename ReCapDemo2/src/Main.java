@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] myList = { 1, 2, 3, 4, 5 };
+		int total = 0;
+		int max = myList[0];
+		int min = myList[1];
+		for (int number : myList) {
+			if(max<number) {
+				max = number;
+			}
+			
+			total = total + number;
+			System.out.println(number);
+		}
+		System.out.println("Toplam : " + total);
+        System.out.println("En büyüğü : " + max);
+        System.out.println("En küçüğü : " + min);
+	}
+}

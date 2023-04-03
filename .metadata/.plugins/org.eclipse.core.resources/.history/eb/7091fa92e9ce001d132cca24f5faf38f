@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] myList= {1,2,3,4,5};
+       
+		for(int number:myList) {
+			System.out.println(number);
+		}
+	
+	}
+}

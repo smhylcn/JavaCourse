@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		int[] myList= {1,2,3,4,5};
+        int total= 0;
+		for(int number:myList) {
+			total = total + number;
+			System.out.println(number);
+		}
+		System.out.println("Toplam : "+ total);
+	
+	}
+}
